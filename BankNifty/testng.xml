@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Parallel Testing Suite">
+   <test name = "Parallel Tests" parallel = "methods">
+      <classes>
+       <class name="test.BankNifty.BankNifty_dataScrap"/>
+           
+      <class name="test.BankNifty.ImpliedVolatility"/>
+      </classes>
+   </test>
+</suite>
